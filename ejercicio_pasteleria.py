@@ -10,4 +10,5 @@ productos = {
     'BEB01': ['Bebida',  'Cafe Latte',     'Cafe',        'Mediano',    'No'],
     'BEB02': ['Bebida',  'Jugo Natural',   'Naranja',     'Grande',     'Si'],
 }
-print(productos)
+for producto in productos:  
+    print(producto)
